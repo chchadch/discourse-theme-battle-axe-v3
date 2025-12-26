@@ -75,3 +75,25 @@ a.mention {
 .extra-info-wrapper svg {
   fill: #fff;
 }
+
+.passkey-login-button {
+  display: none;
+}
+
+.muted-categories {
+  display: none;
+}
+
+#new-group-chat {
+   display: none;
+}
+
+a[href="/about"] {
+  pointer-events: none;
+  color: gray;
+  cursor: default;
+  text-decoration: none;
+
+.top-tabs.tabs-list > a:not(#user-menu-button-all-notifications):not(#user-menu-button-bookmarks):not(#user-menu-button-replies):not(#user-menu-button-messages) {
+  display: none;
+}
