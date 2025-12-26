@@ -75,32 +75,3 @@ a.mention {
 .extra-info-wrapper svg {
   fill: #fff;
 }
-
-.passkey-login-button {
-  display: none;
-}
-
-.muted-categories {
-  display: none;
-}
-
-#new-group-chat {
-   display: none;
-}
-
-a[href="/about"] {
-  pointer-events: none;
-  color: gray;
-  cursor: default;
-  text-decoration: none;
-}
-
-body.navigation-topics, body.navigation-categories { button#create-topic { display:none; } }
-
-.category-list [data-category-id="46"] {
-    display: none !important;
-}
-
-.top-tabs.tabs-list > a:not(#user-menu-button-all-notifications):not(#user-menu-button-bookmarks):not(#user-menu-button-replies):not(#user-menu-button-messages) {
-  display: none;
-}
