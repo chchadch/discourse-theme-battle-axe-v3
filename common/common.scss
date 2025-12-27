@@ -98,3 +98,10 @@ a[href="/about"] {
 .top-tabs.tabs-list > a:not(#user-menu-button-all-notifications):not(#user-menu-button-bookmarks):not(#user-menu-button-replies):not(#user-menu-button-messages) {
   display: none;
 }
+
+.d-header #site-logo {
+  max-height: 200px;
+}
+.d-header {
+    height: 200px;
+}
